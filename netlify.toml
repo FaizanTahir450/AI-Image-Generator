@@ -7,7 +7,7 @@ publish = "client/dist"
 NODE_VERSION = "20.10.0"
 NPM_VERSION = "10.6.0"
 
-[[redirect]]
-from = "/"
-to = "index.html"
+[[redirects]]
+from = "/*"
+to = "/index.html"
 status = 200
